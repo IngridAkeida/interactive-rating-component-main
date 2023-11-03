@@ -23,16 +23,18 @@ ul,li{
 
 body{
   font-family:Arial, Helvetica, sans-serif;
+  
 }
 
 .container{
-  background-color: var(--Off-white);
+  background-color: var(--Very-Dark-Blue);
   height: 100vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  color: var(--White);
 }
 
 .page{
@@ -41,8 +43,8 @@ body{
   align-items: center;
   text-align: center;
   justify-content: center;
-  width: 19rem;
-  height: 30rem;
+  width: 20rem;
+  height: 22rem;
   background-color: var(--White);
   padding: 1rem;
   border-radius: 1rem 1rem 5rem 1rem;
