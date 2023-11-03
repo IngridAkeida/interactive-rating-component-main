@@ -74,6 +74,11 @@ li div{
   position: absolute;
 }
 
+li p{
+  background-color: #000;
+  position: absolute;
+}
+
 #page1{
   display: block;
 }
