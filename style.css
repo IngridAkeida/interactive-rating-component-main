@@ -138,4 +138,5 @@ button{
   color: var(--White);
   border-radius: 2rem;
   border: none;
+  letter-spacing: 2px
 }
