@@ -92,6 +92,10 @@ ul li{
   height: 5rem;
 }
 
+.star{
+  height: 4rem;
+}
+
 li div{
   background-color: #ffffff;
   width: 2.5rem;
