@@ -80,6 +80,7 @@ ul{
   align-items: center;
   text-align: center;
   justify-content: space-between;
+  padding: 0rem 1rem;
 }
 
 ul li{
