@@ -72,6 +72,10 @@ body{
 }
 
 h1{
+  font-size: 1.5rem;
+}
+
+.title p{
   font-size: 1rem;
 }
 
@@ -93,7 +97,7 @@ ul li{
 }
 
 .star{
-  height: 4rem;
+
 }
 
 li div{
