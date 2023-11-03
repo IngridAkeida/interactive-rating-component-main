@@ -55,14 +55,20 @@ ul{
   display: flex;
   align-items: center;
   text-align: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 ul li{
-  background-color: var(--White);
-  padding: 1rem 1.5rem;
-  border-radius: 3rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
 
+li div{
+  background-color: #ffffff;
+  width: 1rem;
+  padding: 1rem;
 }
 
 #page1{
