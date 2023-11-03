@@ -59,8 +59,6 @@ body{
   align-items: center;
   text-align: center;
   justify-content: center;
-  
-  /*background-color: var(--Dark-Blue);*/
   padding: 1rem;
   
   box-shadow: 0.5rem 0.5rem 1rem var(--GrayishBlue);
