@@ -60,8 +60,8 @@ ul{
 
 ul li{
   background-color: var(--White);
-  padding: 1rem;
-  
+  padding: 1rem 1.5rem;
+  border-radius: 3rem;
 
 }
 
