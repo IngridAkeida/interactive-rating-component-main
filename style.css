@@ -43,7 +43,7 @@ body{
   text-align: center;
   justify-content: center;
   width: 20rem;
-  height: 22rem;
+  height: 21rem;
   background-color: var(--Dark-Blue);
   padding: 1rem;
   border-radius: 1rem 1rem 5rem 1rem;
@@ -55,7 +55,7 @@ ul{
   display: flex;
   align-items: center;
   text-align: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 ul li{
@@ -63,12 +63,15 @@ ul li{
   align-items: center;
   text-align: center;
   justify-content: center;
+  position: relative;
+  height: 5rem;
 }
 
 li div{
   background-color: #ffffff;
   width: 1rem;
   padding: 1rem;
+  position: absolute;
 }
 
 #page1{
