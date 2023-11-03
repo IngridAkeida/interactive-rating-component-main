@@ -93,13 +93,15 @@ ul li{
 
 li div{
   background-color: #ffffff;
-  width: 1rem;
+  width: 2.5rem;
+  height: 2.5rem;
   padding: 1rem;
   position: absolute;
+  border-radius: 2rem;
 }
 
 li p{
-  background-color: #000;
+  color: #000;
   position: absolute;
 }
 
