@@ -55,7 +55,14 @@ ul{
   display: flex;
   align-items: center;
   text-align: center;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+ul li{
+  background-color: var(--White);
+  padding: 1rem;
+  
+
 }
 
 #page1{
@@ -64,4 +71,9 @@ ul{
 
 #page2{
   display: none;
+}
+
+.attribution{
+  display: flex;
+  flex-direction: column;
 }
