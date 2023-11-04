@@ -95,6 +95,7 @@ ul li{
   align-items: center;
   text-align: center;
   justify-content: center;
+  cursor: pointer;
   position: relative;
   height: 5rem;
 }
