@@ -160,17 +160,20 @@ button{
   justify-content: center;
 }
 
+.selected{
+  color: var(--Orange);
+  background-color: var(--Very-Dark-Blue);
+  font-size: 0.8rem;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  width: 9.5rem;
+  margin: 1rem;
+}
+
 .text{
   font-size: 0.8rem;
   color: var(--Orange);
 }
 
-.selected{
-  color: var(--Orange);
-  background-color: var(--Very-Dark-Blue);
-  border-radius: 1rem;
-  padding: 0.5rem;
-  width: 10rem;
-  margin: 1rem;
-}
+
 
