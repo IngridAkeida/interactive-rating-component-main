@@ -147,3 +147,30 @@ button{
 }
 
 /*Page 2*/
+
+.thankYouImg{
+  width: 10rem;
+}
+
+.thankYouMsg{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.thankYouMsg p{
+  font-size: 0.8rem;
+  color: var(--Medium-Grey);
+}
+
+.selected{
+  color: var(--Orange);
+  background-color: var(--Very-Dark-Blue);
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  width: 12rem;
+  margin: 1rem;
+}
+
