@@ -149,7 +149,7 @@ button{
 /*Page 2*/
 
 .thankYouImg{
-  width: 10rem;
+  width: 8.5rem;
 }
 
 .thankYouMsg{
@@ -169,8 +169,8 @@ button{
   color: var(--Orange);
   background-color: var(--Very-Dark-Blue);
   border-radius: 1rem;
-  padding: 0.5rem 1rem;
-  width: 12rem;
+  padding: 0.5rem;
+  width: 10rem;
   margin: 1rem;
 }
 
