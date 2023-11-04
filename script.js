@@ -9,21 +9,11 @@ function submit() {
 
   select = '';
 
-
-
-
-
-
-
-  
-
-  
-
   if(!select){
     alert(`Please chose a button`)
   }else{
-    if()
-    daysRes.innerHTML = `${dayAge}`;
+    if(five)
+    daysRes.innerHTML = `${}`;
   }
   
 }
