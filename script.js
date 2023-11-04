@@ -7,6 +7,8 @@ function submit() {
   let two = document.getElementById("two");
   let one = document.getElementById("one");
 
+  
+
   select = '';
 
   if(!select){

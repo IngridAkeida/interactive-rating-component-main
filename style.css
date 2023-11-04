@@ -125,11 +125,11 @@ li p{
 }
 
 #page1{
-  display: none;
+  display: block;
 }
 
 #page2{
-  display: block;
+  display: none;
 }
 
 .attribution{
