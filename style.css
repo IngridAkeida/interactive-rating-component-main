@@ -47,7 +47,7 @@ body{
   margin: 1rem;
   background: linear-gradient(to top, var(--Dark-Blue) 20%, var(--Dark-Blue) 50%);
   width: 20rem;
-  height: 22rem;
+  height: 20rem;
   border-radius: 1rem;
 }
 
@@ -60,9 +60,9 @@ body{
   text-align: center;
   justify-content: center;
   padding: 1rem;
-  
+  padding-top: 2rem;
   box-shadow: 0.5rem 0.5rem 1rem var(--GrayishBlue);
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .title{
@@ -78,7 +78,7 @@ h1{
 }
 
 .title p{
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: var(--Medium-Grey);
 }
 
@@ -99,14 +99,8 @@ ul li{
   height: 5rem;
 }
 
-.star{
-  height: 2.5rem;
-  margin-bottom: 1rem;
-  margin-top: -0.5rem;
-}
-
 li div{
-  background-color: #ffffff;
+  background-color: var(--Very-Dark-Blue);
   width: 2.5rem;
   height: 2.5rem;
   padding: 1rem;
@@ -115,8 +109,16 @@ li div{
 }
 
 li p{
-  color: #000;
+  color: var(--Light-Grey);
   position: absolute;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.star{
+  height: 2.5rem;
+  margin-bottom: 1rem;
+  margin-top: -0.5rem;
 }
 
 #page1{
@@ -134,7 +136,7 @@ li p{
 
 button{
   background-color: var(--Orange);
-  padding: 0.8rem 6.8rem;
+  padding: 0.8rem 6.3rem;
   color: var(--White);
   border-radius: 2rem;
   border: none;
