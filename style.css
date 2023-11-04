@@ -65,6 +65,8 @@ body{
   gap: 1rem;
 }
 
+/*Page 1*/
+
 .title{
   display: flex;
   flex-direction: column;
@@ -143,3 +145,5 @@ button{
   border: none;
   letter-spacing: 2px
 }
+
+/*Page 2*/
