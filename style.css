@@ -123,11 +123,11 @@ li p{
 }
 
 #page1{
-  display: block;
+  display: none;
 }
 
 #page2{
-  display: none;
+  display: block;
 }
 
 .attribution{
