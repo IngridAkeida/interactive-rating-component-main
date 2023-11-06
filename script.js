@@ -19,7 +19,6 @@ function submit() {
           break;
         }
     }
-    console.log(selected);
 
     if(!selected){
       alert(`Please chose a button`);
