@@ -116,12 +116,21 @@ h1{
   align-items: center;
   text-align: center;
   justify-content: center;
+  border-radius: 2rem;
   width: 2.5rem;
   height: 2.5rem;
   font-size: 0.8rem;
   font-weight: 700;
+  position: relative;
 }
 
+.options div label{
+  position: absolute;
+}
+
+.options div input{
+  position: absolute;
+}
 
 /*
 form li{
