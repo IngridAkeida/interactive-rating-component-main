@@ -1,5 +1,4 @@
 function submit() {
-
   let select = document.getElementById("info").value;
 
   let five = document.getElementById("five").value;
@@ -8,12 +7,17 @@ function submit() {
   let two = document.getElementById("two").value;
   let one = document.getElementById("one").value;
 
+  let button = document.getElementById("button").value;
+
   let page1 = document.getElementById("page1");
   let page2 = document.getElementById("page2");
 
-  select = '';
+  let valueRate = '';
 
-  if(!select){
+  
+
+
+  if(button == ''){
     alert(`Please chose a button`);
   }else{
 
@@ -21,22 +25,22 @@ function submit() {
     page2.style.display = "block";
 
     if(five){
-      five.innerHTML = `You selected ${} out of 5`;
+      valueRate = five;
     }
     if(four){
-      four.innerHTML = `${}`;
+      valueRate = four;
     }
     if(three){
-      three.innerHTML = `${}`;
+      valueRate = three;
     }
     if(two){
-      two.innerHTML = `${}`;
+      valueRate = two;
     }
     if(one){
-      one.innerHTML = `${}`;
+      valueRate = one;
     }
 
-    select.innerHTML = `You selected ${select} out of 5`;
+    select.innerHTML = `You selected ${valueRate} out of 5`;
     
   }
   

@@ -84,6 +84,7 @@ h1{
   color: var(--Medium-Grey);
 }
 
+/*
 ul{
   display: flex;
   align-items: center;
@@ -93,7 +94,7 @@ ul{
 }
 
 
-ul li{
+form li{
   display: flex;
   align-items: center;
   text-align: center;
@@ -142,12 +143,16 @@ li p{
   font-size: 0.8rem;
   font-weight: 700;
 }
+*/
 
 .star{
+  display: flex;
   height: 2.5rem;
   margin-bottom: 1rem;
   margin-top: -0.5rem;
 }
+
+.star 
 
 #page1{
   display: block;

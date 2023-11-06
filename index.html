@@ -24,26 +24,28 @@
   <div class="container">
     <div class="card">
       <div class="page" id="page1">
-        <ul>
-          <li class="star">
-            <div></div>
-            <p><img src="./images/icon-star.svg" alt=""></p>
-          </li>
-        </ul>
+        <div class="star">
+          <img src="./images/icon-star.svg" alt="">
+        </div>
         <div class="title">
           <h1>How did we do?</h1>
           <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
         </div>
 
-        <ul>
+        <form>
+          <div class="one">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+          </div>
+
           <li class="one"><div></div><p id="one">1</p></li>
           <li class="two"><div></div><p id="two">2</p></li>
           <li class="three"><div></div><p id="three">3</p></li>
           <li class="four"><div></div><p id="four">4</p></li>
           <li class="five"><div></div><p id="five">5</p></li>
-        </ul>
+        </form>
 
-        <button type="submit" onclick="submit()">SUBMIT</button>
+        <button type="submit" id="button"  onclick="submit()">SUBMIT</button>
       </div>
 
 
