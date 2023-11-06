@@ -133,6 +133,7 @@ h1{
 
 .options div input{
   position: absolute;
+  display: none;
 }
 
 /*
