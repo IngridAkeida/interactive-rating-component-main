@@ -119,6 +119,30 @@ li p{
   font-weight: 700;
 }
 
+.one div,
+.two div,
+.three div,
+.four div,
+.five div{
+  background-color: var(--Very-Dark-Blue);
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 1rem;
+  position: absolute;
+  border-radius: 2rem;
+}
+
+.one p,
+.two p,
+.three p,
+.four p,
+.five p{
+  color: var(--Light-Grey);
+  position: absolute;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
 .star{
   height: 2.5rem;
   margin-bottom: 1rem;
