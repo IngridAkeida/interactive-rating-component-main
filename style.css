@@ -20,6 +20,7 @@ p{
   --White: #ffffff;
   --Light-Grey: #949dab;
   --Medium-Grey: #7c8798;
+  --Medium-Grey-tr: #7d889933;
   --Dark-Blue: #252d37;
   --Very-Dark-Blue: #121417;
   --Very-Dark-Blue-2: #191a1d;
@@ -77,7 +78,7 @@ body{
   border-radius: 2rem;
   align-items: center;
   justify-content: center;
-  background-color: var(--Very-Dark-Blue);
+  background-color: var(--Medium-Grey-tr);
 }
 
 .star img{
@@ -89,7 +90,7 @@ body{
   display: flex;
   flex-direction: column;
   text-align: left;
-  justify-content:flex-start;
+  justify-content: flex-start;
 }
 
 h1{
@@ -111,7 +112,7 @@ h1{
 }
 
 .options div{
-  background-color: var(--Very-Dark-Blue);
+  background-color: var(--Medium-Grey-tr);
   color: var(--Light-Grey);
   display: flex;
   align-items: center;
