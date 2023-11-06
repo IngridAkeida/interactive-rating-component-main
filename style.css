@@ -109,6 +109,21 @@ h1{
   padding: 0rem 1rem;
 }
 
+.options div{
+  background-color: var(--Very-Dark-Blue);
+  color: var(--Light-Grey);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+
+/*
 form li{
   display: flex;
   align-items: center;
