@@ -5,6 +5,9 @@ function submit() {
 
   const numberButtons = document.querySelectorAll('input[name="rateSelected"]');
 
+  let page1 = document.getElementById("page1");
+  let page2 = document.getElementById("page2");
+
   button.addEventListener("click", () => {
 
     let selected;
@@ -16,7 +19,7 @@ function submit() {
         }
     }
     // show the output:
-    if(selected){
+    if(selected = true){
 
       page1.style.display = "none";
       page2.style.display = "block";
@@ -24,7 +27,6 @@ function submit() {
 
     } else {
       alert(`Please chose a button`);
-
     }
     /*select.innerText = selected ? 
     

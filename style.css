@@ -128,6 +128,15 @@ h1{
   margin-bottom: 1rem;
 }
 
+.one:active,
+.two:active,
+.three:active,
+.four:active,
+.five:active{
+  color: var(--Very-Dark-Blue);
+  background-color: var(--Light-Grey);
+}
+
 .options div label{
   position: absolute;
 }
