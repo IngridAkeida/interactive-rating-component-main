@@ -6,6 +6,8 @@ function submit() {
   let three = document.getElementById("three");
   let two = document.getElementById("two");
   let one = document.getElementById("one");
+  let page1 = document.getElementById("page1");
+  let page2 = document.getElementById("page2");
 
   let number = {
 
@@ -16,20 +18,24 @@ function submit() {
   if(!select){
     alert(`Please chose a button`);
   }else{
+    
+    page1.style.display = "none";
+    page2.style.display = "block";
+
     if(five){
-      daysRes.innerHTML = `${}`;
+      five.innerHTML = `${}`;
     }
     if(four){
-      daysRes.innerHTML = `${}`;
+      four.innerHTML = `${}`;
     }
     if(three){
-      daysRes.innerHTML = `${}`;
+      three.innerHTML = `${}`;
     }
     if(two){
-      daysRes.innerHTML = `${}`;
+      two.innerHTML = `${}`;
     }
     if(one){
-      daysRes.innerHTML = `${}`;
+      one.innerHTML = `${}`;
     }
     
   }
