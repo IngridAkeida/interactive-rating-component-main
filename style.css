@@ -134,17 +134,14 @@ h1{
   margin-bottom: 1rem;
 }
 
-.options div label{
-  position: absolute;
-}
-
-.options div input[type=radio]{
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  width: 2.5rem;
-  height: 2.5rem;
-  z-index: 1;
+.one,
+.two,
+.three,
+.four,
+.five{
+  background-color: var(--Medium-Grey);
+  color: var(--White);
+  transition: color 0.8s, background-color 0.8s ease;
 }
 
 .one:hover,
@@ -165,6 +162,19 @@ h1{
   color: var(--White);
 }
 
+.options div label{
+  position: absolute;
+}
+
+.options div input[type=radio]{
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  width: 2.5rem;
+  height: 2.5rem;
+  z-index: 1;
+}
+
 .attribution{
   display: flex;
   flex-direction: column;
@@ -178,6 +188,11 @@ button{
   border: none;
   letter-spacing: 2px;
   cursor: pointer;
+}
+
+button:hover{
+  color: var(--Orange);
+  background-color: var(--White);
 }
 
 /*Page 2*/
