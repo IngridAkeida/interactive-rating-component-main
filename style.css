@@ -147,13 +147,22 @@ h1{
   z-index: 1;
 }
 
+.one:hover,
+.two:hover,
+.three:hover,
+.four:hover,
+.five:hover{
+  background-color: var(--Medium-Grey);
+  color: var(--White);
+}
+
 .one:active,
 .two:active,
 .three:active,
 .four:active,
 .five:active{
-  color: var(--Very-Dark-Blue);
-  background-color: var(--Light-Grey);
+  background-color: var(--Orange);
+  color: var(--White);
 }
 
 .attribution{
