@@ -168,7 +168,8 @@ button{
   color: var(--White);
   border-radius: 2rem;
   border: none;
-  letter-spacing: 2px
+  letter-spacing: 2px;
+  cursor: pointer;
 }
 
 /*Page 2*/
