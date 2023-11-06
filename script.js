@@ -1,13 +1,13 @@
 function submit() {
 
-  let select = document.getElementById("info");
+  let select = document.getElementById("info").value;
 
-  let five = document.getElementById("five");
-  let four = document.getElementById("four");
-  let three = document.getElementById("three");
-  let two = document.getElementById("two");
-  let one = document.getElementById("one");
-  
+  let five = document.getElementById("five").value;
+  let four = document.getElementById("four").value;
+  let three = document.getElementById("three").value;
+  let two = document.getElementById("two").value;
+  let one = document.getElementById("one").value;
+
   let page1 = document.getElementById("page1");
   let page2 = document.getElementById("page2");
 
