@@ -122,7 +122,9 @@ h1{
   font-size: 0.8rem;
   font-weight: 700;
   position: relative;
-  margin: 0.5rem;
+  margin-right: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .options div label{
