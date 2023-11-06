@@ -92,7 +92,11 @@ ul{
   padding: 0rem 1rem;
 }
 
-ul li{
+.one, 
+.two, 
+.three, 
+.four, 
+.five{
   display: flex;
   align-items: center;
   text-align: center;
