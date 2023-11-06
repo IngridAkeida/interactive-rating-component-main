@@ -132,6 +132,14 @@ li p{
   border-radius: 2rem;
 }
 
+.one div:active,
+.two div:active,
+.three div:active,
+.four div:active,
+.five div:active{
+  background-color: var(--Orange);
+}
+
 .one p,
 .two p,
 .three p,
@@ -141,6 +149,14 @@ li p{
   position: absolute;
   font-size: 0.8rem;
   font-weight: 700;
+}
+
+.one p:active,
+.two p:active,
+.three p:active,
+.four p:active,
+.five p:active{
+  color: var(--Very-Dark-Blue);
 }
 
 .star{
