@@ -69,6 +69,10 @@ body{
 
 /*Page 1*/
 
+#page1{
+  display: block;
+}
+
 .star{
   display: flex;
   width: 2.5rem;
@@ -130,6 +134,19 @@ h1{
   margin-bottom: 1rem;
 }
 
+.options div label{
+  position: absolute;
+}
+
+.options div input[type=radio]{
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  width: 2.5rem;
+  height: 2.5rem;
+  z-index: 1;
+}
+
 .one:active,
 .two:active,
 .three:active,
@@ -137,19 +154,6 @@ h1{
 .five:active{
   color: var(--Very-Dark-Blue);
   background-color: var(--Light-Grey);
-}
-
-.options div label{
-  position: absolute;
-}
-
-.options div input{
-  position: absolute;
-  display: none;
-}
-
-#page1{
-  display: block;
 }
 
 #page2{
