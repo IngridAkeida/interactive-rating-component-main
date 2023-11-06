@@ -101,15 +101,13 @@ h1{
   color: var(--Medium-Grey);
 }
 
-/*
-ul{
+.options{
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: space-between;
   padding: 0rem 1rem;
 }
-
 
 form li{
   display: flex;
