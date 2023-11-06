@@ -7,15 +7,31 @@ function submit() {
   let two = document.getElementById("two");
   let one = document.getElementById("one");
 
-  
+  let number = {
+
+  }
 
   select = '';
 
   if(!select){
-    alert(`Please chose a button`)
+    alert(`Please chose a button`);
   }else{
-    if(five)
-    daysRes.innerHTML = `${}`;
+    if(five){
+      daysRes.innerHTML = `${}`;
+    }
+    if(four){
+      daysRes.innerHTML = `${}`;
+    }
+    if(three){
+      daysRes.innerHTML = `${}`;
+    }
+    if(two){
+      daysRes.innerHTML = `${}`;
+    }
+    if(one){
+      daysRes.innerHTML = `${}`;
+    }
+    
   }
   
 }
