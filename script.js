@@ -19,7 +19,7 @@ function submit() {
     page2.style.display = "block";
 
     if(five){
-      five.innerHTML = `${}`;
+      five.innerHTML = `You selected ${} out of 5`;
     }
     if(four){
       four.innerHTML = `${}`;
@@ -33,6 +33,8 @@ function submit() {
     if(one){
       one.innerHTML = `${}`;
     }
+
+    select.innerHTML = `You selected ${select} out of 5`;
     
   }
   
