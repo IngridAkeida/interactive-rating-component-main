@@ -156,10 +156,6 @@ h1{
   background-color: var(--Light-Grey);
 }
 
-#page2{
-  display: none;
-}
-
 .attribution{
   display: flex;
   flex-direction: column;
@@ -177,6 +173,10 @@ button{
 
 /*Page 2*/
 
+#page2{
+  display: none;
+}
+
 .thankYouImg{
   width: 8.5rem;
 }
@@ -191,10 +191,11 @@ button{
 
 .selected{
   color: var(--Orange);
-  background-color: var(--Very-Dark-Blue);
+  background-color: var(--Medium-Grey-tr);
   font-size: 0.8rem;
   border-radius: 1rem;
   padding: 0.5rem;
+  padding-left: 0.8rem;
   width: 9.5rem;
   margin: 1rem;
 }
