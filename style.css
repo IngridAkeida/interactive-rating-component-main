@@ -22,6 +22,7 @@ p{
   --Medium-Grey: #7c8798;
   --Dark-Blue: #252d37;
   --Very-Dark-Blue: #121417;
+  --Very-Dark-Blue-2: #191a1d;
 }
 
 body{
@@ -45,7 +46,7 @@ body{
   align-items: center;
   justify-content: center;
   margin: 1rem;
-  background: linear-gradient(to top, var(--Dark-Blue) 20%, var(--Dark-Blue) 50%);
+  background: linear-gradient(to top, var(--Very-Dark-Blue-2) 10%, var(--Dark-Blue) 50%);
   width: 20rem;
   height: 20rem;
   border-radius: 1rem;
