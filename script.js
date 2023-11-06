@@ -1,6 +1,10 @@
 function submit() {
   let select = document.getElementById("info").value;
 
+  const numberButtons = document.querySelectorAll('input[name="rateSelected"]');
+
+  
+
   let five = document.getElementById("five").value;
   let four = document.getElementById("four").value;
   let three = document.getElementById("three").value;
@@ -14,7 +18,7 @@ function submit() {
 
   let valueRate = '';
 
-  
+
 
 
   if(button == ''){
